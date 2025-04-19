@@ -6,8 +6,7 @@ const nextConfig = {
     unoptimized: false
   },
   experimental: {
-    optimizeCss: true,
-    serverActions: true
+    optimizeCss: true
   }
 }
 
