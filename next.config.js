@@ -1,12 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  output: 'standalone',
   images: {
-    unoptimized: true
+    domains: ['vercel.com'],
+    unoptimized: false
   },
   experimental: {
-    optimizeCss: true
+    optimizeCss: true,
+    serverActions: true
   }
 }
 
