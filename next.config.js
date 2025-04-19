@@ -5,9 +5,6 @@ const nextConfig = {
     domains: ['vercel.com'],
     unoptimized: false
   },
-  experimental: {
-    optimizeCss: true
-  },
   eslint: {
     ignoreDuringBuilds: true
   }
