@@ -3,11 +3,12 @@ const nextConfig = {
   reactStrictMode: true,
   images: {
     domains: ['vercel.com'],
-    unoptimized: false
+    unoptimized: true
   },
   eslint: {
     ignoreDuringBuilds: true
-  }
+  },
+  output: 'export'
 }
 
 module.exports = nextConfig
