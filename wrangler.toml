@@ -1,0 +1,12 @@
+name = "dinamik-goz"
+compatibility_date = "2024-04-19"
+
+[build]
+command = "npm run build"
+publish = ".next"
+
+[build.environment]
+NODE_VERSION = "18.18.0"
+
+[site]
+bucket = ".next" 

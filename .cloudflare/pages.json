@@ -1,7 +1,7 @@
 {
   "buildConfig": {
-    "buildCommand": "npm install && npm run build",
-    "outputDirectory": ".next",
+    "buildCommand": "npm install --legacy-peer-deps && npm run build",
+    "outputDirectory": "out",
     "nodeVersion": "18.17.1"
   },
   "deploymentConfigs": {
@@ -13,4 +13,4 @@
       }
     }
   }
-} 
+}
