@@ -2,11 +2,12 @@ name = "dinamik-goz"
 compatibility_date = "2024-04-19"
 
 [build]
-command = "npm run build"
+command = "npm install && npm run build"
 publish = ".next"
 
 [build.environment]
-NODE_VERSION = "18.18.0"
+NODE_VERSION = "20.11.1"
+NPM_VERSION = "10.2.4"
 
 [site]
 bucket = ".next" 
