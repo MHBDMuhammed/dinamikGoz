@@ -8,7 +8,11 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true
   },
-  output: 'export'
+  output: 'export',
+  webpack: (config) => {
+    config.resolve.alias['@'] = __dirname;
+    return config;
+  }
 }
 
 module.exports = nextConfig

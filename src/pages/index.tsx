@@ -7,7 +7,6 @@ import { GeistSans } from 'geist/font/sans';
 import { GeistMono } from 'geist/font/mono';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { useSpring, animated } from '@react-spring/web';
 import { useTheme } from 'next-themes';
 import { Sun, Moon, ArrowRight, Check, X, ChevronRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
