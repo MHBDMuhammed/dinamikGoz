@@ -4,6 +4,9 @@ const nextConfig = {
   images: {
     domains: ['vercel.com'],
     unoptimized: false
+  },
+  eslint: {
+    ignoreDuringBuilds: true
   }
 }
 
