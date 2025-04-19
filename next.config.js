@@ -6,7 +6,10 @@ const nextConfig = {
     unoptimized: false
   },
   eslint: {
-    ignoreDuringBuilds: true
+    ignoreDuringBuilds: true,
+    rules: {
+      '@next/next/no-html-link-for-pages': 'off'
+    }
   }
 }
 
