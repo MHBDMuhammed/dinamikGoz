@@ -1,0 +1,11 @@
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+  X-XSS-Protection: 1; mode=block
+  
+/_next/static/*
+  Cache-Control: public, max-age=31536000, immutable
+  
+/images/*
+  Cache-Control: public, max-age=31536000, immutable 

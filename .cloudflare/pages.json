@@ -1,0 +1,16 @@
+{
+  "buildConfig": {
+    "buildCommand": "npm run build",
+    "outputDirectory": ".next",
+    "nodeVersion": "18"
+  },
+  "deploymentConfigs": {
+    "production": {
+      "env": {
+        "NODE_VERSION": "18",
+        "NPM_VERSION": "9",
+        "NEXT_TELEMETRY_DISABLED": "1"
+      }
+    }
+  }
+} 
